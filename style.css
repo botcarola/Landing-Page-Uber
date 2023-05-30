@@ -13,12 +13,24 @@ html {
     display: flex;
 }
 
+.is-column {
+    flex-direction: column;
+}
+
 .is-between {
     justify-content: space-between;
 }
 
+.is-around {
+    justify-content: space-around;
+}
+
 .is-align-center {
     align-items: center;
+}
+
+.is-center {
+    justify-content: center;
 }
 
 .navigation {
@@ -66,4 +78,77 @@ html {
     background-color: #3a3a3a;
     transition-property: background-color;
     transition-duration: 0.3s;
+}
+
+.header {
+    background-image: url("./assets/f.png");
+    background-size: cover; 
+    background-position: center;  
+    padding: 50px;
+}
+
+.header-card {
+    width: 28%;   
+    background-color: white;
+    color: #000000;     
+    margin: 20px 0px 20px 300px
+    
+}
+
+.header-list {
+    font-size: 16px;    
+}
+
+.icon-header {
+    font-size: 20rem;
+    margin-bottom: 10px;
+}
+
+.header-list li {
+    width: 60px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.header-sections {
+    width: 100%;
+    background-color: #fbfbfa;
+    padding-top: 20px;
+    border-bottom: 1px solid rgb(232, 232, 232);
+}
+
+.header-li {
+    border-bottom: 3px solid black;
+    padding: 100px;
+}
+
+.header-info {
+    padding: 25rem;
+    font-size: 16px;    
+}
+
+.header-subtitle {
+    font-size: 54px;
+}
+
+.header-button {
+    padding: 10px 0px;
+    background-color: black;
+    color: white;
+    width: 250px;    
+    font-size: 20rem;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.header-info p {
+    font-size: 18px;
+    margin: 30px 0px;
+}
+
+.header-underline {
+    width: 86%;
+    border-bottom: 1px solid rgb(196, 195, 195);
+    padding-bottom: 3px;
 }
